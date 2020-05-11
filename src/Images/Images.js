@@ -9,10 +9,18 @@ class Images extends React.Component {
       .then((jsonStr) => this.props.addImages(jsonStr))
   }
   render() {
-    console.log(this.props.photos)
+    console.log(this.props.photos);
     return (
       <div className="gallery">
-        
+        {
+          this.props.photos.map((item) => {
+            return (
+              <React.Fragment key={item.id}>
+                <img className="images" src={item.url} alt="world" />
+              </React.Fragment>
+            )
+          })
+        }
       </div>
     )
   }
