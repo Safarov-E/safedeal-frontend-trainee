@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 768px;
+    height: 828px;
+    margin: auto;
+    background: #FFFFFF;
+}
+.logo h2 {
+    position: absolute;
+    width: 233px;
+    height: 36px;
+    left: 266px;
+    top: 15px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+footer {
+    position: absolute;
+    height: 56px;
+    left: 20px;
+    right: 20px;
+    bottom: 0px;
+}
+.line {
+    position: absolute;
+    width: 728px;
+    height: 0px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #CCCCCC;
+}
+.copyright {
+    position: absolute;
+    left: 327px;
+    right: 327px;
+    top: 12px;
+    bottom: 11.1px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CCCCCC;
+}
