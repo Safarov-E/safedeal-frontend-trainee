@@ -1,5 +1,6 @@
 let initialState = {
-    photos: []
+    photos: [],
+    modalPhoto: []
 }
 const reducer = function(state = initialState, action) {
     switch(action.type) {
@@ -9,6 +10,14 @@ const reducer = function(state = initialState, action) {
             return {
                 ...state,
                 photos
+            }
+            break;
+        case 'MODAL_PHOTOS':
+            let modalPhoto = [...state.modalPhoto];
+            modalPhoto = [action.image]
+            return {
+                ...state,
+                modalPhoto
             }
             break;
         default:

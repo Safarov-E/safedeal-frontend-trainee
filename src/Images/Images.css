@@ -4,6 +4,7 @@
     height: 314px;
     left: 20px;
     top: 81px;
+    display: flex;
 }
 img.images:nth-child(1) {
     position: absolute;
