@@ -47,3 +47,111 @@ img.images:nth-child(6) {
     left: 519px;
     top: 253px;
 }
+.modal {
+    position: absolute;
+    width: 768px;
+    height: 828px;
+    left: 0px;
+    top: 0px;
+}
+.rectangle_8{
+    position: absolute;
+    width: 619px;
+    height: 425px;
+    left: 74px;
+    top: 181px;
+    background: #FFFFFF;
+}
+.rectangle_7 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.7);
+}
+.line_2 {
+    position: absolute;
+    width: 25.46px;
+    height: 0px;
+    left: 568px;
+    top: 28px;
+    border: 1px solid #000000;
+    transform: rotate(-45deg);
+}
+.line_1 {
+    position: absolute;
+    width: 25.46px;
+    height: 0px;
+    left: 568px;
+    top: 28px;
+    border: 1px solid #000000;
+    transform: rotate(45deg);
+}
+.largeImage img {
+    position: absolute;
+    width: 331px;
+    height: 205px;
+    left: 35px;
+    top: 30px;
+}
+.name {
+    position: absolute;
+    width: 332px;
+    height: 30px;
+    left: 35px;
+    top: 265px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #CCCCCC;
+    padding: 8px 0 8px 10px;
+}
+.comment {
+    position: absolute;
+    width: 332px;
+    height: 30px;
+    left: 35px;
+    top: 315px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    color: #CCCCCC;
+    padding: 8px 0 8px 10px;
+}
+.button {
+    position: absolute;
+    width: 332px;
+    height: 30px;
+    left: 35px;
+    top: 365px;
+    background: #4997D0;
+    border-radius: 3px;
+    border: 1px solid #4997D0;
+}
+button.button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
