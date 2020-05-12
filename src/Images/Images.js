@@ -51,8 +51,8 @@ class Images extends React.Component {
               <div className="modal">
                   <div className="rectangle_8">
                     <div className="close" onClick={this.handleShow}>
-                      <div className="line_1"></div>
-                      <div className="line_2"></div>
+                      <div className="line_1" onClick={this.handleShow}></div>
+                      <div className="line_2" onClick={this.handleShow}></div>
                     </div>
                     <div className="largeImage">
                       <img src={item.url} alt="" />
@@ -60,6 +60,14 @@ class Images extends React.Component {
                     <input className="name" type="text" placeholder="Ваше имя"/>
                     <input className="comment" type="text" placeholder="Ваш комментарий"/>
                     <button className="button" type="button">Оставить комментарий</button>
+                    <div className="comments">
+                      <div className="comment_1">
+                        <span>{item.comments[0]  !== undefined ?  ('0' + new Date(item.comments[0].date).getDate() + '.' + 
+                        '0' + (new Date(item.comments[0].date).getMonth() + 1) + '.' +
+                        new Date(item.comments[0].date).getFullYear()) : null}</span>
+                        <p>{item.comments[0] !== undefined ? item.comments[0].text : null}</p>
+                      </div>
+                    </div>
                 </div>
               </div>
             </div>)

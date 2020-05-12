@@ -79,6 +79,7 @@ img.images:nth-child(6) {
     top: 28px;
     border: 1px solid #000000;
     transform: rotate(-45deg);
+    z-index: 100;
 }
 .line_1 {
     position: absolute;
@@ -88,6 +89,7 @@ img.images:nth-child(6) {
     top: 28px;
     border: 1px solid #000000;
     transform: rotate(45deg);
+    z-index: 100;
 }
 .largeImage img {
     position: absolute;
@@ -155,4 +157,11 @@ button.button {
     align-items: center;
     text-align: center;
     color: #FFFFFF;
+}
+.comments {
+    overflow: scroll;
+    position: absolute;
+    width: 245px;
+    height: 100%;
+    left: 375px;
 }
